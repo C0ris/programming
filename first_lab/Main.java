@@ -29,7 +29,7 @@ public class Main {
         }
 
         for (double element: x) {
-            System.out.printf("%.2f ", element);
+            System.out.printf("%4.2f ", element);
         }
 
         System.out.println("\n");
@@ -51,12 +51,12 @@ public class Main {
                 };
             }
         }
-        
-        
+
+
         //Task4: print two-dimensional array
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < x.length; j++) {
-                System.out.printf("%.4f ", array[i][j]);
+                System.out.printf("%8.4f ", array[i][j]);
             }
             System.out.println();
         }
